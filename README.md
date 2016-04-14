@@ -1,7 +1,7 @@
 Haikudos
 ======
 
-A fairly simplistic Node.js module I made for my chatbot to allow it to write Haikus on request and at specific times.  It uses preset word patterns to ensure the result makes sense to the reader.
+A fairly simplistic Node.js module I created for a chatbot to allow it to write Haikus on request and at specific times throughout the day.  It uses preset word patterns to ensure the result makes sense to the reader.
 
 To add to your node, run the following
 ```npm install haikudos --save```
@@ -14,3 +14,5 @@ Haikudos(function(haiku) {
   console.log(haiku);
 });
 ```
+
+If you'd like to see how the resulting Haikus look, [my bot tweets them quite often throughout the day](https://twitter.com/oceanibot).
