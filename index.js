@@ -1,7 +1,9 @@
 var fs = require("fs");
 
-module.exports = function() {
-    var haikuFile = fs.readFile("json/haiku.json", function(e,file) {
+module.exports = function(c) {
+    fs.readFile(__dirname + "/json/haiku.json", function(e,file) {
+        if (e) console.log(e);
+        console.log("File:",file);
         var words = JSON.parse(file),
             lines = ["","",""],
             syllables = 5,
@@ -76,7 +78,7 @@ module.exports = function() {
             }
         }
         for (var i in lines) lines[i] = lines[i].slice(0,1).toUpperCase() + lines[i].slice(1).toLowerCase();
-        return(lines.join("\n"));
+        c(lines.join("\n"));
     });
     function RandomInt(min,max) { return Math.floor(Math.random()*(max-min+1)+min); }
     function HaikuWord(words,type,size) { return words[type][size][Math.floor(Math.random()*words[type][size].length)] + " "; }
