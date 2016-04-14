@@ -1,0 +1,24 @@
+{
+  "name": "haikudos",
+  "version": "1.0.0",
+  "description": "Generates a random provocative Haiku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oceanity/haikudos.git"
+  },
+  "keywords": [
+    "Haiku",
+    "Random",
+    "Bot"
+  ],
+  "author": "Oceanity <oceanitylp@gmail.com> (https://twitter.com/Oceanity)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Oceanity/haikudos/issues"
+  },
+  "homepage": "https://github.com/Oceanity/haikudos#readme"
+}
