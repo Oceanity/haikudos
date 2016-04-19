@@ -80,10 +80,10 @@
         "anger", "anguish", "boredom", "calmness", "caution", "comfort", "concern", "contempt", "defeat", "delight", "disgrace", "disgust", "dislike", "dismay", "distrust", "envy", "fondness", "hatred", "horror", "interest", "neglect", "numbness", "outrage", "panic", "pity", "pleasure", "regret", "relief", "resent", "sadness", "safety", "sorrow", "worry"
     ],
     "3" : [
-        "adoration", "amazement", "amusement", "annoyance", "anxiousness", "arousal", "attraction", "awkwardness", "bitterness", "bravery", "cheerfulness", "compassion", "confidence", "confusion", "contentment", "depression", "discomfort", "eagerness", "elation", "excitement", "exhaustion", "frustration", "happiness", "helplessness", "hesitance", "jealousy", "loneliness", "nervousness", "rejection", "restlessness", "revulsion", "suspicion", "tenderness", "weariness"
+        "amazement", "amusement", "annoyance", "anxiousness", "arousal", "attraction", "awkwardness", "bitterness", "bravery", "cheerfulness", "compassion", "confidence", "confusion", "contentment", "depression", "discomfort", "eagerness", "elation", "excitement", "exhaustion", "frustration", "happiness", "helplessness", "hesitance", "jealousy", "loneliness", "nervousness", "rejection", "restlessness", "revulsion", "suspicion", "tenderness", "weariness"
     ],
     "4" : [
-        "aggravation", "ambivalence", "disappointment", "disturbia", "embarrassment", "hostility", "indifference", "irritation", "isolation", "melancholy", "optimism", "powerlessness", "relaxation", "satisfaction", "uncertainty"
+        "adoration", "aggravation", "ambivalence", "disappointment", "disturbia", "embarrassment", "hostility", "indifference", "irritation", "isolation", "melancholy", "optimism", "powerlessness", "relaxation", "satisfaction", "uncertainty"
     ]
 }
 }
