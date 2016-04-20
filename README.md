@@ -15,4 +15,4 @@ Haikudos(function(haiku) {
 });
 ```
 
-If you'd like to see how the resulting Haikus look, [my bot tweets them quite often throughout the day](https://twitter.com/oceanibot).
+If you'd like to see how the resulting Haikus look, [my bot tweets them quite often](https://twitter.com/oceanibot).
