@@ -2,8 +2,7 @@ var fs = require("fs");
 
 module.exports = function(c) {
     fs.readFile(__dirname + "/json/haiku.json", function(e,file) {
-        if (e) console.log(e);
-        console.log("File:",file);
+        if (e) console.log("Error: ",e);
         var words = JSON.parse(file),
             lines = ["","",""],
             syllables = 5,
